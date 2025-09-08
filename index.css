@@ -65,7 +65,7 @@ html {
         position: absolute;
     }
     .nav-links.show {
-        display: f;
+        display: flex;
     }
     .hamburger {
         display: block;
