@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #050404;
 }
 html {
     scroll-behavior: smooth;
@@ -10,10 +11,11 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 27px 20px;
-    background: black;
+    padding: 20px 15px;
+    background: linear-gradient(to right, rgba(21, 22, 21, 0.4), rgba(28, 30, 28, 0.2)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), transparent;
     color: #fff;
     position: fixed;
+    top: 0;
     width: 98%;
 }
 .logo{
@@ -40,13 +42,155 @@ html {
     transition: 0.3s;
 }
 .nav-links li a:hover{
-    color: #ff9800;
+    color: #4e412f;
 }
 .hamburger{
     font-size: 45px;
     cursor: pointer;
     display: none;
 }
+.first {
+    background: url(img/bar\ 2.jpg) center/cover no-repeat;
+    padding: 150px 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.first h1{
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 0 10px;
+}
+.first p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+.first button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.first .we {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #050404;
+    border: none;
+    background-color: #e2bd85;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+.first .me {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.first .we:hover{
+    background-color: #4e412f;
+}
+.first a {
+   text-decoration: none;
+   color: white;
+}
+.second {
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    margin-top: -4rem;
+}
+.second .card {
+    text-align: center;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+}
+.second .card h3 {
+    display: inline-block;
+    border-bottom: 3px solid #e2bd85;
+    margin-bottom: 4px;
+    font-weight: 800;
+}
+.second .card p {
+    margin-top: 5px;
+    font-weight: 600;
+}
+.third {
+    padding: 180px 20px;
+    justify-content: space-around;
+    background-color: #f0d3a5;
+}
+.third .container {
+    align-items: center;
+    display: flex;
+}
+.third .container .mation {
+    padding: 0 40px;
+    text-align: center;
+}
+.third .info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.third .container .rate {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.third .card h2 {
+    margin-bottom: -10px;
+}
+.third .card h2 span {
+    color: #926f3c;
+}
+.third .card p {
+    font-weight: 600;
+    line-height: 1.6;
+}
+.third img {
+    width: 500px;
+    height: 400px;
+    background-size: cover;     
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #f0d3a5;
+}
+.service h3 {
+    font-weight: 800;
+    margin-top: -70px;
+}
+.service p {
+    font-size: 15px;
+}
+.service .contt {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -71,5 +215,8 @@ html {
         display: block;
         font-size: 55px;
         margin-right: 19px;
+    }
+    .third .container {
+        flex-direction: column;
     }
 }
