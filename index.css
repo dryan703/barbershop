@@ -27,7 +27,7 @@ html {
 }
 .logo a {
     text-decoration: none;
-    color: white;
+    color: beige;
 }
 .nav-links{
     list-style: none;
@@ -98,7 +98,7 @@ html {
 }
 .second {
     flex-wrap: wrap;
-    padding: 10px 15px;
+    padding: 13px 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -171,7 +171,7 @@ html {
 }
 .service h3 {
     font-weight: 800;
-    margin-top: -70px;
+    margin-top: -100px;
 }
 .service p {
     font-size: 15px;
@@ -179,9 +179,82 @@ html {
 .service .contt {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     background-color: white;
+    width: 80%;
+    padding: 18px 10px;
+    position: relative;
+    left: 8rem;
+    top: 20px;
+    right: 19rem;
+    bottom: 9rem;
+}
+.service .mini .card {
+    display: flex;
+    text-align: left;
+}
+.service .card .img3 {
+   
+}
+.service .mini img{
+    margin-top: 7px;
+    width: 50px;
+    height: 100px;
+}
+.service .card .words {
+    padding: 0 25px;
+}
+.service .words p {
+    margin-bottom: -15px;
+    margin-top: -13px;
+}
+.service .butt {
+    padding: 50px 20px;
+}
+.service .butss {
+    display: inline;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #926f3c;
+    transition: 0.3s;
+}
+.service .butss:hover {
+    background-color: #655641;
+}
+.service .butt a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.fifth {
+    padding: 60px 20px;
+    background: url(img/bar\ 4.jpg) center/cover no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.fifth h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.fifth .butst {
+    display: inline;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #926f3c;
+    transition: 0.3s;
+}
+.fifth .butst a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.fifth .butst:hover {
+    background-color: #655641;
 }
 
 
