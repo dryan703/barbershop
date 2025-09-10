@@ -294,28 +294,50 @@ html {
     margin-bottom: 4px;
 }
 .seventh {
-    padding: 20px 20px;
-    justify-content: space-around;
+    padding: 20px 10px;
+    justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    gap: 100px;
 }
 .seventh .card {
-    padding: 0 10px;
+    padding: 0 1px;
+}
+.seventh .sweet  {
+    border: 2px solid #e2bd85;
+    padding: 15px 25px;
+}
+.seventh .sweet img {
+    border-radius: 50px;
+} 
+.seventh .sweet span {
+
+}
+.seventh .sweet p {
+
+}
+.seventh .sweet h3 {
+    
+}
+.seventh .sweet  h4{
+
 }
 .seventh .card img {
-    width: 50px;
+    max-width: 100px;
+    width: 70px;
     height: 70px;
 }
 .seventh .card h3 {
-   
+   margin-top: 0px;
 }
 .seventh .card h1 {
-
+    margin-top: -10px;
+    margin-bottom: 2px;
 }
 .seventh .card p {
-
+    margin-top: 5px;
 }
 
 
