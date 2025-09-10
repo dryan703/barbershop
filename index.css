@@ -164,6 +164,7 @@ html {
     background-repeat: no-repeat;
 }
 .service {
+    padding: 0 15px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -256,7 +257,66 @@ html {
 .fifth .butst:hover {
     background-color: #655641;
 }
+.sixth {
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.sixth h2 {
+    font-weight: 800;
+}
+.sixth p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.sixth .contts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px 20px;
+}
+.sixth .contts .card {
+    padding: 0 20px;
+}
+.sixth .card img {
+    margin-top: 7px;
+    width: 50px;
+    height: 70px;
+    margin-bottom: -28px;
+}
+.sixth .card h4 {
+    font-weight: 800;
+    display: inline-block;
+    border-bottom: 3px solid #e2bd85;
+    margin-bottom: 4px;
+}
+.seventh {
+    padding: 20px 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.seventh .card {
+    padding: 0 10px;
+}
+.seventh .card img {
+    width: 50px;
+    height: 70px;
+}
+.seventh .card h3 {
+   
+}
+.seventh .card h1 {
 
+}
+.seventh .card p {
+
+}
 
 
 
