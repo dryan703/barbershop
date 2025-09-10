@@ -312,17 +312,14 @@ html {
 .seventh .sweet img {
     border-radius: 50px;
 } 
-.seventh .sweet span {
-
+.seventh .sweet h5 {
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
-.seventh .sweet p {
-
-}
-.seventh .sweet h3 {
-    
-}
-.seventh .sweet  h4{
-
+.seventh .sweet  h6{
+    font-size: 13px;
+    margin-top: 10px;
 }
 .seventh .card img {
     max-width: 100px;
@@ -356,9 +353,9 @@ html {
         flex-direction: column;
         top: 130px;
         right: 20px;
-        background-color: #444;
+        background-color: #bc914d;
         width: 250px;
-        padding: 15px;
+        padding: 25px 10px;
         border-radius: 8px;
         display: none;
         position: absolute;
