@@ -137,6 +137,9 @@ html {
     padding: 0 40px;
     text-align: center;
 }
+.third .info h2 {
+    font-weight: 800;
+}
 .third .info p {
     font-size: 18px;
     line-height: 1.6;
@@ -162,6 +165,7 @@ html {
     background-size: cover;     
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 12px;
 }
 .service {
     padding: 0 15px;
@@ -379,6 +383,8 @@ html {
     margin-bottom: 13px;
 }
 .eighth .form2 {
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 50%;
     background-color: white;
@@ -470,7 +476,39 @@ html {
         font-size: 55px;
         margin-right: 19px;
     }
+    .first .button .swe {
+        display: none;
+    }
+    .first p {
+        margin-bottom: 29px;
+    }
+    .third {
+        padding: 340px 0;
+    }
     .third .container {
+        flex-direction: column;
+    }
+    .third .container img {
+        width: 330px;
+    }
+    .service {
+        margin-top: -300px;
+    }
+    .service .contt {
+        margin-left: -100px;
+    }
+    .sixth .contts {
+        gap: 0px;
+        margin-top: -30px;
+    }
+    .seventh {
+        margin-top: -30px;
+        gap: 7px;
+    }
+    .eighth .form2 {
+        width: 70%;
+    }
+    .inforss {
         flex-direction: column;
     }
 }
