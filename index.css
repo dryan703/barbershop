@@ -50,7 +50,7 @@ html {
     display: none;
 }
 .first {
-    background: url(img/bar\ 2.jpg) center/cover no-repeat;
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.4), rgba(13, 13, 13, 0.587)),  url(img/bar\ 2.jpg) center/cover no-repeat;
     padding: 150px 20px;
     text-align: center;
     justify-content: center;
@@ -235,7 +235,7 @@ html {
 }
 .fifth {
     padding: 60px 20px;
-    background: url(img/bar\ 1.jpg) center/cover no-repeat;
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.4), rgba(13, 13, 13, 0.587)), url(img/bar\ 1.jpg) center/cover no-repeat;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -348,7 +348,7 @@ html {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    background: url(img/bar\ 4.jpg) center/cover no-repeat;
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.4), rgba(13, 13, 13, 0.587)),  url(img/bar\ 4.jpg) center/cover no-repeat;
 }
 .eighth .appoint {
     padding: 20px 15px;
@@ -496,6 +496,10 @@ html {
     }
     .service .contt {
         margin-left: -100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 25px;
     }
     .sixth .contts {
         gap: 0px;
